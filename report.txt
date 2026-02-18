@@ -1,0 +1,17 @@
+AI/ML Task 3 – Model Validation and Hyperparameter Tuning Report
+
+In this project, the California Housing dataset was used to predict house prices. The purpose of this task was to validate model reliability and improve performance.
+
+The Decision Tree Regressor from the previous task was first checked for overfitting by comparing training and testing RMSE values. The model showed overfitting because training error was lower than testing error.
+
+To obtain reliable performance, 5-fold cross-validation was applied. This allowed the model to be tested on multiple unseen data splits.
+
+Next, hyperparameter tuning was performed using GridSearchCV. The parameters max_depth and min_samples_split were optimized to control overfitting and improve generalization.
+
+After tuning, the optimized model produced lower RMSE and higher R² score compared to the original Decision Tree model.
+
+Final Result:
+The Tuned Decision Tree Regressor achieved the best performance and was selected as the final model.
+
+Conclusion:
+This task demonstrates how cross-validation and hyperparameter tuning improve machine learning model reliability and reduce overfitting.
